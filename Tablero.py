@@ -8,8 +8,9 @@ with st.sidebar:
     
     # Canvas dimensions (moved to the top)
     st.subheader("Dimensiones del Tablero")
-    st.write("Ancho del tablero")
+    st.write("Ancho del tablero:")
     canvas_width =  600 #st.slider("Ancho del tablero", 300, 700, 500, 50)
+    st.write("Alto del tablero:")
     canvas_height = 400 #st.slider("Alto del tablero", 200, 600, 300, 50)
     st.write(canvas_width)
     st.write(canvas_height)
