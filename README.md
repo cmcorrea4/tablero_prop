@@ -1,1 +1,3 @@
 # tablero_prop
+
+Esta app necesita streamlit ...
